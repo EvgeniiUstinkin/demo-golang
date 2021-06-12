@@ -1,0 +1,13 @@
+port: ${PORT}
+logger: true
+errorReporting: false
+storage:
+  bucketName: bucket-storage
+db:
+  host: ${DATABASE_HOST}
+  name: ${DATABASE_NAME}
+  port: ${DATABASE_PORT}
+  user: ${DATABASE_USER}
+  password: ${DATABASE_PASSWORD}
+  sslMode: ${DATABASE_SSL_MODE}
+  sslCert: ${DATABASE_SSL_CERT}
